@@ -1,0 +1,66 @@
+@font-face {
+    font-family: ongdo;
+    src: url(./VNI-Thu\ fap2.TTF);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.play{
+    display: inline-block;
+    position: absolute;
+    font-size: 64px;
+    font-family: ongdo;
+    border: none;
+    background-color: rgb(182, 225, 245);
+    padding: 48px 32px;
+    padding-top: 0;
+    border: 2px solid #000;
+    border-radius: 6px;
+    cursor: pointer;
+    top: 8px;
+    right: 16px;
+}
+
+.resu{
+    display: inline-block;
+    position: absolute;
+    font-size: 64px;
+    font-family: ongdo;
+    border: none;
+    color:rgb(250, 34, 34);
+    background-color: rgb(248, 245, 69);
+    padding: 16px 32px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    top: 65%;  
+}
+
+.play:active{
+    background-color: rgb(248, 245, 69);
+    color: rgb(250, 34, 34);
+}
+
+.big{
+    left: 15%;
+}
+
+
+.small{
+    right: 15%;
+}
+
+.hide{
+    display: none;
+}
+
+.comf{
+    padding: 4px 16px;
+    left: 50%;
+    bottom: calc(20% - 22px);
+    transform: translateX(-50%);
+    cursor: pointer;
+}
